@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; 
+    list-style: none;
+    text-decoration: none;
+
+}
+
+:root {
+    --peachy-color: #D5BBAC ;
+    --rosa1-color: #D9C3C3 ;
+    --rosa2-color: #E1DAD7 ; 
+    --lilac-color: #B9A3B0 ; 
+    --gray-color: #D3D3D3; 
+    --soft-green:#AFC3BA;
+
+}
+
+@font-face{
+    font-family: Rainray-demo;
+    src: url(../fonts/RainrayDemoSerif.ttf)
+
+}
