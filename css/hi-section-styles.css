@@ -1,0 +1,186 @@
+.hi-section{
+    background-image: url(../imagenes/Sample\ Oil\ and\ Water\ Wallpaper\ in\ Metallic\ Pearl\ from\ the\ Casa\ Blanca\ II\ Collection\ by\ Seabrook\ Wallcoverings.jpg);
+    width: 100%;
+    flex-direction: row;
+}
+
+.presentation{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10.5rem;
+    padding-left: 4.375rem;
+    flex-direction: column;
+}
+
+.first-line-presentation{
+    font-family: Rainray-demo;
+    font-size: 2.1875em;
+}
+
+.name{
+    font-family: Glamori;
+    font-size: 4.6875em;
+    color:var(--pink-color);
+    margin-top: -1.875rem;
+    margin-left: 3.75rem;
+}
+
+
+.little-bio{
+    font-family: Orange-type;
+    font-size: 0.9375em;
+}
+
+
+.what-do-i-do-button{
+    background-color: var(--orange-color);
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+    margin-top: 2.1875rem;
+    margin-left: 15.1875rem;
+    padding: 1rem 1rem;
+    border-radius: 27px;
+    font-family: Orange-type;
+}
+
+.what-do-i-do-button:hover {
+    background-color: var(--purple-color);
+    transition: 1.5s;
+}
+
+.representative-image{
+    float: right;
+    margin-top: -17.25rem;
+    margin-right: 7rem;
+}
+
+
+/*Comienzo mediaqueries*/
+
+@media  (min-width:58px) and (max-width:900px) {
+    
+
+
+
+
+    .hi-section{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        
+        
+    }
+    
+    
+
+    .first-line-presentation{
+        font-family: Rainray-demo;
+        font-size: 2.1875em;
+        text-align: center;
+        margin: auto;
+        margin-left: -1.0625rem;
+        margin-top: -90px; 
+        display: flex;
+        
+    }
+
+    .name{
+        font-family: Glamori;
+        font-size: 3.6875em;
+        background: -webkit-linear-gradient(90deg, rgba(88,208,231,1) 0%, rgba(136,230,214,1) 18%, rgba(241,241,168,1) 33%, rgba(255,184,149,1) 50%, rgba(255,173,185,1) 63%, rgba(253,178,217,1) 73%, rgba(197,153,217,1) 83%, rgba(248,247,243,0.74) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: auto;
+        margin-left: -1.98rem;
+        padding-left: 2rem;
+        display: flex;
+        
+    }
+
+    .representative-image{
+        display: none;
+    }
+
+    .little-bio{
+        font-family: Orange-type;
+        font-size: 0.6375em;
+        margin-right: 3rem;
+        padding-right: 1px; 
+        display: flex;
+    }
+
+    
+    .what-do-i-do-button{
+        background-color: var(--orange-color);
+        display:inline-block;
+        text-decoration: none;
+        color: black;
+        margin: auto;
+        margin-left: 3.2625rem;
+        margin-top: 1.5625rem; 
+        padding: 1rem 1rem;
+        border-radius: 1.6875rem;
+        font-family: Orange-type;
+        
+}
+}
+    
+@media  (min-width:901px) and (max-width:1324px) {
+   
+    .hi-section{
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        
+        
+    }
+   
+   
+    .first-line-presentation{
+        font-family: Rainray-demo;
+        font-size: 2.1875em;
+        text-align: center;
+        margin: auto;
+        margin-left: -1.0625rem;
+        margin-top: -90px; 
+        display: flex; }
+        
+
+    .name{
+            font-family: Glamori;
+            font-size: 3.6875em;
+            margin: auto;
+            margin-left: -1.98rem;
+            padding-left: 2rem;
+            margin-top: -1rem;
+            display: flex;
+            
+        }
+    
+        .little-bio{
+            font-family: Orange-type;
+            font-size: 0.6375em;
+            margin-right: 3rem;
+            padding-right: 1px; 
+            display: flex;
+        }
+        .what-do-i-do-button{
+            background-color: var(--orange-color);
+            display:inline-block;
+            text-decoration: none;
+            color: black;
+            margin: auto;
+            margin-left: 11.2625rem;
+            margin-top: 0.5625rem; 
+            padding: 1rem 1rem;
+            border-radius: 1.6875rem;
+            font-family: Orange-type;
+        }
+        .representative-image{
+            display: flex;
+            margin-top: -13rem;
+            justify-content: flex-end;
+            margin-right: -0.03rem;
+        }
+}

@@ -4,17 +4,19 @@
     background-color:rgba(255, 255, 255, 0.575);
     justify-content: flex-end;
     text-align: right;
-    height: 15vh;
+    height: 13vh;
     flex-direction: row;
+    box-shadow: 0 3px 2px -2px rgba(136, 230, 214, 0.89);
+    position: fixed;
 
 }
 
 .menu{
     justify-content: flex-end;
     display: inline-flex;
-    /* line-height: 4.375rem; */
     flex-direction: row;
-    box-shadow: 0 2px 2px #c9ffe76e
+    
+    
 }
 
 .menu-buttons {
@@ -32,14 +34,14 @@
     background-color:rgba(255, 255, 255, 0.575);
     height: 1.875rem;
     padding: 0.4375rem 0.75rem;
-    margin: 1.5625rem 0.625rem;
+    margin: 1.06rem 0.625rem;
     font-family: Rainray-demo;
     border-radius: 4px;
     
 }
 
 .button:hover{
-    background-color: #a8fad5b4;
+    background-color: rgba(88, 208, 231, 0.89);
     transition: 2s;
 }
 
@@ -54,19 +56,18 @@ label{
 
 /*Comienzo de los media queries*/ 
 
-@media only screen and (max-width: 500px) {
+@media (min-width:58px) and (max-width: 900px) {
     label{
         display:block; 
-        cursor: pointer;
-        width: 26px;
-        
-        
+        cursor: pointer;  
     }
 
     .menu{
         text-align: center;
         width: 100%;
         display: none;
+        
+        
     }
 
     .menu-buttons{
@@ -74,28 +75,39 @@ label{
     text-align: center;
     width: 100%;
     display: block;
-    border-bottom: solid 2px #6dffbde7;
+    background-color: white;
+    
     }
 
     .menu .menu-buttons a{
         display: block;
-        border-bottom: solid 2px #6dffbde7;
         margin: 0;
+        border-bottom: var(--blue-color) solid 1px;
     }
 
     #toggle:checked + .menu {
         display: block;
+        
+        
     }
 
     .menu-buttons a:hover{
-        background-color: #a8fad5b4;
+        background-color: var(--blue-color);
         transition: 1s;
     }
     
-    .button:hover{
-        background-color:transparent ;
-        transition: 1s;
+   
+    
+    .navigation-menu{
+        width: 100%;
+        display: inline-flex;
+        background-color:rgba(255, 255, 255, 0.596);
+        justify-content: flex-end;
+        text-align: right;
+        height: 15vh;
+        flex-direction: row;
+        border-bottom: transparent solid 2px;
+        
+    
     }
-    
-    
 }

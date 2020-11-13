@@ -7,18 +7,31 @@
 
 }
 
-:root {
-    --peachy-color: #D5BBAC ;
-    --rosa1-color: #D9C3C3 ;
-    --rosa2-color: #E1DAD7 ; 
-    --lilac-color: #B9A3B0 ; 
-    --gray-color: #D3D3D3; 
-    --soft-green:#AFC3BA;
-
+:root{
+    --blue-color: rgb(88,208,231);
+    --green-color:rgb(136,230,214);
+    --orange-color: rgb(255,184,149);
+    --pink-color: rgb(253,178,217);
+    --purple-color: rgb(197,155,217);
+    --red-color: rgb(255,173,185);
+    --white-color: rgb(248,247,243);
+    --yellow-color: rgb(241,241,168);
+ 
 }
+
 
 @font-face{
     font-family: Rainray-demo;
     src: url(../fonts/RainrayDemoSerif.ttf)
 
+}
+
+@font-face{
+    font-family: Glamori;
+    src: url(../fonts/glamori.regular.ttf);
+}
+
+@font-face{
+    font-family: Orange-type;
+    src: url(../fonts/orange-typewriter.regular.ttf);
 }
