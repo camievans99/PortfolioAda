@@ -7,15 +7,30 @@
 
 }
 
+body{
+    background-color: var(--gray-color);
+}
 :root{
     --blue-color: rgb(88,208,231);
+    --tblue-color:rgba(88, 207, 231, 0.699);
+    --tgreen-color:rgba(136, 230, 214, 0.705);
     --green-color:rgb(136,230,214);
+    --torange-color: rgb(255,184,149,0.705);
     --orange-color: rgb(255,184,149);
+    --tpink-color: rgb(253,178,217,0.705);
     --pink-color: rgb(253,178,217);
+    --tpurple-color: rgb(197,155,217,0.705);
     --purple-color: rgb(197,155,217);
+    --tred-color: rgba(255, 173, 185, 0.705);
     --red-color: rgb(255,173,185);
+    --twhite-color: rgba(248, 247, 243, 0.705);
     --white-color: rgb(248,247,243);
+    --tyellow-color: rgba(241, 241, 168, 0.705);
     --yellow-color: rgb(241,241,168);
+    --gray-color: rgba(239, 239, 242, 0.705);
+    --gray-color: rgb(239,239,242);
+    --dark-gray-color:rgb(119, 119, 119,0.705);
+    --dark-gray-color:rgb(119, 119, 119);
  
 }
 

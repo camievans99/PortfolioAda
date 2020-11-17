@@ -1,0 +1,133 @@
+/*Start of knowledge section*/
+
+.knowledge-section {
+    flex-direction: column;
+    background-color: var(--gray-color);
+    width: 100%;
+}
+
+.knowledge-title{
+    font-family: Glamori;
+    color: var(--green-color);
+    font-size:3.9375rem;
+    margin-left: 21.125rem;
+    -webkit-text-stroke: 0.3px black;
+  
+}
+
+.knowledge-description{
+    font-size: 1.5625rem;
+    font-family: Orange-type;
+    margin-left: 22.375rem;
+}
+
+
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 15%;
+    border-bottom: none;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    margin: 10px;
+    background-color: var(--white-color);
+    border-radius: 25px;
+    border:solid 1px var(--dark-gray-color);
+    
+}
+
+.skill-title {
+    font-family: Rainray-demo;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.card i{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: var(--red-color);
+}
+
+.card:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: var(--tyellow-color);
+  
+    
+}
+
+/*primer media*/
+
+@media (min-width:901px) and (max-width:1324px) {
+    .card {
+        width: 9.375rem;
+        height: 9.375rem;
+        border-radius: 1.25rem;
+    }
+
+    .skills-container {
+        padding: 0;
+    }
+
+    .card i {
+        font-size: 3.75rem;
+        margin-bottom: 0.9375rem;
+    }
+}
+
+/*segunda media*/
+
+
+
+@media(min-width:280px) and (max-width:900px){
+    
+   
+   
+    .knowledge-title{
+        margin-left: 1.0875rem;
+        font-size: 1.5875em;
+        font-family: Orange-type;
+        margin-top: 1rem;
+        
+    }
+    
+    .knowledge-description{
+        margin-left: 4.0875rem;
+        font-size: 1.3375em;
+        font-family: Glamori;
+        
+    }
+    
+    .skills-container {
+        padding: 5%;
+        
+    }
+
+    .card {
+        width: 5.25rem;
+        height: 5.25rem;
+        border-radius: 0.9375rem;
+    }
+
+    .skill-title {
+        font-size: 0.5rem;
+        letter-spacing: 0.0625rem;
+    }
+
+    .card i {
+        font-size: 2.5rem;
+        margin-bottom: 0.625rem;
+    }
+}
