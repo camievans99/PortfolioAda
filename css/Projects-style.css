@@ -1,0 +1,62 @@
+/*Estilo general poyectos*/
+
+
+.projects-section{
+    background-image: url(../imagenes/Sample\ Oil\ and\ Water\ Wallpaper\ in\ Metallic\ Pearl\ from\ the\ Casa\ Blanca\ II\ Collection\ by\ Seabrook\ Wallcoverings.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*estilos de tarjetas*/
+.card-image{
+    max-height: 230px;
+    max-width:  230px;
+}
+
+.cardp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 290px;
+    margin: 10px;
+    background-color: var(--white-color);
+    border-radius: 25px;
+    border:solid 1px var(--dark-gray-color);
+    
+}
+
+.cardp:hover {
+    background-color: var(--tpink-color);
+    transition: 1.5s;
+    font-size: 35px;
+}
+
+.project-title{
+    font-family: Rainray-demo;
+    text-decoration: none;
+    
+}
+
+
+/*Inicio estilos titulo y subtitulo*/
+
+.projects-title{
+    font-family: Glamori;
+    color:black;
+    font-size: 5rem;
+    
+}
+
+.projects-title:hover{
+    color:var(--tpurple-color)
+}
+
+.projects-description{
+    font-family: Orange-type;
+    font-size: 2rem;
+    color: black;
+}

@@ -1,9 +1,14 @@
+
+/*Esitlo general de la seccion*/
+
 .hi-section{
     background-image: url(../imagenes/Sample\ Oil\ and\ Water\ Wallpaper\ in\ Metallic\ Pearl\ from\ the\ Casa\ Blanca\ II\ Collection\ by\ Seabrook\ Wallcoverings.jpg);
     width: 100%;
     flex-direction: row;
 }
 
+
+/*Estilo del contenedor del texto*/
 .presentation{
     display: flex;
     justify-content: flex-start;
@@ -11,6 +16,8 @@
     padding-left: 4.375rem;
     flex-direction: column;
 }
+
+
 
 .first-line-presentation{
     font-family: Rainray-demo;
@@ -31,7 +38,7 @@
     font-size: 0.9375em;
 }
 
-
+/*Estilos boton que dirige a proyectos*/
 .what-do-i-do-button{
     background-color: var(--orange-color);
     display:inline-block;
@@ -42,17 +49,23 @@
     padding: 1rem 1rem;
     border-radius: 27px;
     font-family: Orange-type;
+    margin-bottom:19px;
 }
 
 .what-do-i-do-button:hover {
     background-color: var(--purple-color);
     transition: 1.5s;
+   
 }
+ 
 
+/*Estilos imagen representativa*/
 .representative-image{
     float: right;
     margin-top: -17.25rem;
     margin-right: 7rem;
+    position: absolute;
+    right: 0;
 }
 
 

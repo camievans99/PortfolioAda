@@ -1,3 +1,6 @@
+
+/*estilos generales*/
+
 *{
     padding: 0%;
     margin: 0%;
@@ -10,6 +13,13 @@
 body{
     background-color: var(--gray-color);
 }
+
+/*fin de estilos generales*/
+
+/*Paleta de colores*/
+
+
+/*Los que dicen t antes del color es porque son las transparencias del color*/
 :root{
     --blue-color: rgb(88,208,231);
     --tblue-color:rgba(88, 207, 231, 0.699);
@@ -36,7 +46,10 @@ body{
  
 }
 
+/*fin de paleta de colores*/
 
+
+/*Fuentes*/
 @font-face{
     font-family: Rainray-demo;
     src: url(../fonts/RainrayDemoSerif.ttf)
