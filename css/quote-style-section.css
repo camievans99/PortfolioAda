@@ -1,0 +1,50 @@
+/*Estilo general de la seccion quote*/
+
+.quote-section{
+   background-color: var(--green-color);
+   flex-direction: column;
+   width: 100%;
+   text-align: center;
+}
+
+
+/*Estilo de la frase elegida*/
+.quote-section i{
+    background:  var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px black;
+    font-size: 8.9375rem;
+    margin-top: 5%;
+}
+
+.quote{
+    font-size: 2.5em;
+    font-family: Orange-type;
+}
+
+
+/*estilo de el nombre del autor*/
+.author{
+    font-size: 3em;
+    font-family: Orange-type;
+    background-color: var(--torange-color);
+    display: inline-block;
+    margin-top: 1%;
+}
+
+
+@media  (min-width:58px) and (max-width:900px) {
+    .quote-section i{
+        font-size: 5em;
+    }
+
+    .quote{
+        font-size: 1.2em;
+        
+    }
+
+    .author{
+        font-size: 1em;
+    }
+}

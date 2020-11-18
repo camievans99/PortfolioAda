@@ -17,7 +17,7 @@ body{
     --green-color:rgb(136,230,214);
     --torange-color: rgb(255,184,149,0.705);
     --orange-color: rgb(255,184,149);
-    --tpink-color: rgb(253,178,217,0.705);
+    --tpink-color: rgba(253, 178, 217, 0.397);
     --pink-color: rgb(253,178,217);
     --tpurple-color: rgb(197,155,217,0.705);
     --purple-color: rgb(197,155,217);
@@ -31,6 +31,8 @@ body{
     --gray-color: rgb(239,239,242);
     --dark-gray-color:rgb(119, 119, 119,0.705);
     --dark-gray-color:rgb(119, 119, 119);
+    --gradient-color:-webkit-linear-gradient(90deg, rgba(88,208,231,1) 0%, rgba(136,230,214,1) 18%, rgba(241,241,168,1) 33%, rgba(255,184,149,1) 50%, rgba(255,173,185,1) 63%, rgba(253,178,217,1) 73%, rgba(197,153,217,1) 83%, rgba(248,247,243,0.74) 100%);
+    --tgradient-color:-webkit-linear-gradient(90deg, rgba(88, 207, 231, 0.411) 0%, rgba(136,230,214,0.411) 18%, rgba(241,241,168,0.411) 33%, rgba(255,184,149,0.411) 50%, rgba(255,173,185,0.411) 63%, rgba(253,178,217,0.411) 73%, rgba(197,153,217,0.411) 83%, rgba(248,247,243,0.411) 100%);
  
 }
 

@@ -1,28 +1,41 @@
-/*Start of knowledge section*/
+/*Estilo general mis conocimientos */
 
 .knowledge-section {
     flex-direction: column;
     background-color: var(--gray-color);
     width: 100%;
+    text-align: center;
 }
 
+
+.center-title{
+    background-color: transparent;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+/*Estilo del titulo*/ 
+/*NO ME CENTRA EL TITULOOOOOOOOOOOO*/
 .knowledge-title{
     font-family: Glamori;
     color: var(--green-color);
     font-size:3.9375rem;
-    margin-left: 21.125rem;
+    /* margin-left: 21.125rem; */
     -webkit-text-stroke: 0.3px black;
+    
   
 }
-
+/*DESCRIPCION TITULO*/
 .knowledge-description{
     font-size: 1.5625rem;
     font-family: Orange-type;
-    margin-left: 22.375rem;
+    
 }
 
 
-
+/*GRILLA DE TARJETAS*/
 .skills-container {
     display: flex;
     justify-content: center;
@@ -32,27 +45,27 @@
     margin-top: 5%;
     margin-bottom: 0;
 }
-
+/*TARJETA*/
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 210px;
-    height: 210px;
+    width: 260px;
+    height: 260px;
     margin: 10px;
     background-color: var(--white-color);
     border-radius: 25px;
     border:solid 1px var(--dark-gray-color);
     
 }
-
+/*TITULO TARJETA*/
 .skill-title {
     font-family: Rainray-demo;
     font-size: 15px;
     letter-spacing: 3px;
 }
-
+/*ICONO*/
 .card i{
     font-size: 80px;
     margin-bottom: 20px;
@@ -93,7 +106,7 @@
 
 @media(min-width:280px) and (max-width:900px){
     
-   
+   /*TAMPOCO ME CENTRA LAS COSASSS*/
    
     .knowledge-title{
         margin-left: 1.0875rem;
@@ -104,7 +117,7 @@
     }
     
     .knowledge-description{
-        margin-left: 4.0875rem;
+       
         font-size: 1.3375em;
         font-family: Glamori;
         
