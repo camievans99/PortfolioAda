@@ -1,0 +1,75 @@
+/* ESTILOS GENERALES DEL FOOTER */
+
+footer{
+    
+    background-image: url(../imagenes/Sample\ Oil\ and\ Water\ Wallpaper\ in\ Metallic\ Pearl\ from\ the\ Casa\ Blanca\ II\ Collection\ by\ Seabrook\ Wallcoverings.jpg);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    
+    
+}
+
+/* ESTILOS BOTONES DE NAVEGACION WEB DEL PORTFOLIO */
+.navegacion-portfolio a span{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Orange-type;
+    color: black;
+    margin: 2rem 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+.navegacion-portfolio a span:hover{
+    font-size: 1.3em;
+    color: var(--green-color);
+    transition: 2s;
+
+}
+
+
+/* estilos seccion redes sociales */
+
+.social-media-footer a i{
+    font-size: 2em;
+    color: black;
+    margin: 0 1rem;
+}
+
+.social-media-footer a i:hover{
+    color: var(--red-color);
+    font-size: 2.2em;
+    transition: 0.7s;
+}
+
+
+/*Estilo del ultimo mensaje*/
+
+footer span {
+    font-family: Orange-type;
+    color: black;
+    font-size: 1.5em;
+    padding-top: 2rem;
+}
+
+/*Los media*/ 
+
+@media (min-width:220px) and (max-width:900px){
+    
+    .navegacion-portfolio a span{
+        font-size: 0.9em;
+        margin: 0 3px;
+    }
+
+    .social-media-footer a i{
+        font-size: 1em;
+        margin-top:1rem ;
+    }
+
+    footer span{
+        font-size: 0.7em;
+    }
+}

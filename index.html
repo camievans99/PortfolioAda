@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="./imagenes/favicon.png">
     <link rel="stylesheet" href="./css/generales.css">
     <link rel="stylesheet" href="./css/menu-style.css">
     <link rel="stylesheet" href="./css/hi-section-styles.css">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="./css/quote-style-section.css">
     <link rel="stylesheet" href="./css/Projects-style.css">
     <link rel="stylesheet" href="./css/contact-style.css">
+    <link rel="stylesheet" href="./css/footer-style.css">
     <title>Camila Evans </title>
 </head>
 <body>
@@ -147,7 +149,7 @@
             <!--End of projects section-->
 
             <!--Start of contact section-->
-            <section class="contac-container" id="Contact">
+            <section class="contact-container" id="Contact">
                 <div class="sub-contact-container">
                     <article class="contact-me">
                         <h2 class="contact-me-title">Contactame</h2>
@@ -169,20 +171,20 @@
                          <form class="formulary-section">
                              <div class="row">
                                 <div>
-                                     <label for="Name">*Nombre:</label>
+                                     <label for="Name" class="label">*Nombre:</label>
                                      <input type="text"    name="name" id="Name" placeholder="p.ej:Camila" required>
                                  </div>
                                  <div>
-                                     <label for="lastname">* Apellido:</label>
+                                     <label for="lastname" class="label">* Apellido:</label>
                                      <input type="text" name="apellido" id="lastname" placeholder="p. ej:Evans" required>
                                  </div>
                              </div>
                              <div>
-                                 <label for="UserEmail">* Email:</label>
+                                 <label for="UserEmail" class="label">* Email:</label>
                                  <input type="email" name="email" id="UserEmail" placeholder="p. ej: camievans99@gmail.com" required>
                              </div>
                              <div>
-                                 <label for="UserText"> * Mensaje:</label>
+                                 <label for="UserText" class="label"> * Mensaje:</label>
                                  <textarea name="usertext" id="UserText" cols="30" rows="15" placeholder="Escribí lo que quieras"></textarea>
                              </div>
                              <button type="submit">Enviar</button>
@@ -190,7 +192,35 @@
                     </article>
                  </div>
              </section>
-
+             <!--End of contact section-->
     </main>
+    <!-- Start of footer -->
+    <footer>
+        <div class="navegacion-portfolio">
+            <a href="#Hi">
+                <span>Hola</span>
+            </a>
+            <a href="#Knowledge">
+                <span>Conocimientos</span>
+            </a>
+            <a href="#Projects">
+                <span>Proyectos</span>
+            </a>
+            <a href="#Contact">
+                <span>Contacto</span>
+            </a>  
+        </div>
+        <div class="social-media-footer">
+            <a href="https://twitter.com/camievans99" class="social-media-p-footer" target="_blank"> <i class="fab fa-twitter"></i> </a>
+            <a href="https://github.com/camievans99" class="social-media-p-footer" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/camila-evans-21b899158/" class="social-media-p-footer"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:camievans99@gmail.com" class="social-media-p-footer" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+        <span>Hecho con 💗 por Camila Evans</span>
+       
+        
+    </footer>
+
+    <!-- end of footer and project -->
 </body>
 </html>

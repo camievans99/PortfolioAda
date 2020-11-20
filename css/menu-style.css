@@ -7,7 +7,7 @@
     background-color:rgba(255, 255, 255, 0.575);
     justify-content: flex-end;
     text-align: right;
-    height: 13vh;
+    height: 10vh;
     flex-direction: row;
     box-shadow: 0 3px 2px -2px rgba(136, 230, 214, 0.89);
     position: fixed;
@@ -116,7 +116,7 @@ label{
         background-color:rgba(255, 255, 255, 0.596);
         justify-content: flex-end;
         text-align: right;
-        height: 15vh;
+        height: 10vh;
         flex-direction: row;
         border-bottom: transparent solid 2px;
         
