@@ -1,0 +1,164 @@
+.contact-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-contact-container{
+    display: flex;
+    width: 1000px;
+    height: auto;
+    background-image: url(../imagenes/Sample\ Oil\ and\ Water\ Wallpaper\ in\ Metallic\ Pearl\ from\ the\ Casa\ Blanca\ II\ Collection\ by\ Seabrook\ Wallcoverings.jpg);
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid var(--dark-gray-color);
+    padding: 2%;
+    margin: 7% auto;
+}
+
+/* FIN GENERAL DE LA SECCIÓN */
+
+/* CONTACTAME */
+
+.contact-me{
+    width: 50%;
+}
+
+.contact-me-title,
+.write-me-title{
+   font-size: 3em;
+   color: black;
+   font-family: Glamori;
+}
+
+.contact-me-title:hover,
+.write-me-title:hover{
+    color: var(--tgreen-color);
+    transition: 1s;
+}
+
+
+
+
+.brief-p{
+    font-size: 1rem;
+    width: 70%;
+    margin-top: 3%;
+    color: var(--oscuro);
+    font-family: Orange-type;
+    background-color: var(--twhite-color);
+}
+
+.social-media{
+    margin-top: 15%;
+    color: var(--oscuro);
+}
+
+.social-media-profile{
+    margin-bottom: 3%;
+    color: black;
+    font-size: 1em;
+    font-family: Orange-type;
+    margin-top: 1rem;
+
+
+}
+
+.social-media-profile:hover{
+    font-size: 1.2em;
+    color: var(--pink-color);
+    transition: 1s;
+}
+
+.social-media-profile:active{
+    color: var(--green-color);
+    
+}
+
+
+/* FIN CONTACTAME */
+
+/* FORMULARIO */
+
+.write-me{
+    width: 50%;
+    display: flex;
+    flex-flow:  column nowrap;
+    justify-content: flex-start;
+}
+
+.formulary-section{
+    margin-top: 5%;
+}
+.formulary-section input{
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 10px;
+}
+
+.formulary-section .row{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.formulary-section .row div{
+    width: 45%;
+}
+
+.formulary-section label{
+    color: black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+.formulary-section textarea{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+
+.formulary-section button{
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: var(--white-color);
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-family: Orange-type;
+}
+
+.formulary-section button:hover{
+    color: var(--blue-color);
+    background-color: var(--white-color);
+   cursor: pointer;
+    
+}
+
+.formulary-section input:focus, .formulary-section textarea:focus{
+    outline-style: none;
+    cursor: pointer;
+    border: 2px solid var(--dark-gray-color);
+}
+
+.formulary-section input:valid{
+    background-color: var(--tyellow-color);
+    border: solid 1px var(--orange-color);
+}
+
+/* FIN FORMULARIO */
+
+
+

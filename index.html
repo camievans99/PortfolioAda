@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/knowledge-section-style.css">
     <link rel="stylesheet" href="./css/quote-style-section.css">
     <link rel="stylesheet" href="./css/Projects-style.css">
+    <link rel="stylesheet" href="./css/contact-style.css">
     <title>Camila Evans </title>
 </head>
 <body>
@@ -96,7 +97,7 @@
             <section class="projects-section">
                 <h1 class="projects-title">Proyectos</h1>
                 <p class="projects-description">Lo que hago</p>
-                <div class="card-container">
+                <div class="cardp-container">
                     <a href="https://camievans99.github.io/PortfolioAda/">
                         <div class="cardp">
                             <figure><img class="card-image" src="./imagenes/scportoflio.png" alt="imagen representativa"></figure>
@@ -143,6 +144,52 @@
             </section>
             </a>
 
+            <!--End of projects section-->
+
+            <!--Start of contact section-->
+            <section class="contac-container" id="Contact">
+                <div class="sub-contact-container">
+                    <article class="contact-me">
+                        <h2 class="contact-me-title">Contactame</h2>
+                        <p class="brief-p">Una vez un gran profesor me dijo que todo lo que te imagines, se puede programar, por mas loco o imposible que parezca. Hablame para que juntes podamos materializar tus ideas!♥</p>
+                        <div class="social-media">
+                            <ul>
+                               <a href="https://twitter.com/camievans99" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="fab fa-twitter"></i> @camievans99 </li></a>
+                               <a href="https://github.com/camievans99" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="fab fa-github"></i> camievans99 </li></a>
+                               <a href="https://www.linkedin.com/in/camila-evans-21b899158/" class="social-media-profile" target="_blank"> <li class="social-media-profile"> <i class="fab fa-linkedin"></i> Camila Evans </li></a>
+                               <a href="mailto:camievans99@gmail.com" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="far fa-envelope"></i> camievans99@gmail.com</li></a>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- formulary -->
+
+                    <article class="write-me">
+                         <h2 class="write-me-title">Escribime</h2>
+                         <form class="formulary-section">
+                             <div class="row">
+                                <div>
+                                     <label for="Name">*Nombre:</label>
+                                     <input type="text"    name="name" id="Name" placeholder="p.ej:Camila" required>
+                                 </div>
+                                 <div>
+                                     <label for="lastname">* Apellido:</label>
+                                     <input type="text" name="apellido" id="lastname" placeholder="p. ej:Evans" required>
+                                 </div>
+                             </div>
+                             <div>
+                                 <label for="UserEmail">* Email:</label>
+                                 <input type="email" name="email" id="UserEmail" placeholder="p. ej: camievans99@gmail.com" required>
+                             </div>
+                             <div>
+                                 <label for="UserText"> * Mensaje:</label>
+                                 <textarea name="usertext" id="UserText" cols="30" rows="15" placeholder="Escribí lo que quieras"></textarea>
+                             </div>
+                             <button type="submit">Enviar</button>
+                         </form>
+                    </article>
+                 </div>
+             </section>
 
     </main>
 </body>
