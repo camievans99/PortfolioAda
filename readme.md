@@ -6,7 +6,7 @@
 
 ***
 
-### Para poder visualizarlo puedes seguir este [enlace](camievans99.github.io/portfolioada/) o este [otro]()
+### Para poder visualizarlo puedes seguir este [enlace](https://camievans99.github.io/PortfolioAda/) o este [otro](https://jovial-northcutt-1ad0f6.netlify.app/)
 
 <br>
 
