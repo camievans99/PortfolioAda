@@ -129,9 +129,8 @@
         display:inline-block;
         text-decoration: none;
         color: black;
-        margin: auto;
         margin-left: 3.2625rem;
-        margin-top: 1.5625rem; 
+        margin-bottom: 1rem;
         padding: 1rem 1rem;
         border-radius: 1.6875rem;
         font-family: Orange-type;
@@ -183,9 +182,9 @@
             display:inline-block;
             text-decoration: none;
             color: black;
-            margin: auto;
             margin-left: 11.2625rem;
             margin-top: 0.5625rem; 
+            margin-bottom: 1rem;
             padding: 1rem 1rem;
             border-radius: 1.6875rem;
             font-family: Orange-type;

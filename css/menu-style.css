@@ -56,7 +56,7 @@
 
 
 /*menu hamburguesa*/
-label{
+.navigation-menu label{
     display: none;
     line-height: 4.375rem;
 }

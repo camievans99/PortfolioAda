@@ -24,11 +24,11 @@
            <label for="toggle">&#9776;</label>
            <input type="checkbox" id="toggle">
            <nav class="menu">
-               <ul class="menu-buttons">
-                   <a href="#Hi"> <li class="button hi"> HOLA </li></a>
-                   <a href="#Knowledge"> <li class="button knowledge"> CONOCIMIENTOS </li></a>
-                   <a href="#Projects"> <li class="button projects"> PROYECTOS</li></a>
-                   <a href="#Contact"> <li class="button contact"> CONTACTO </li></a>
+               <ul class="menu-buttons" >
+                   <a href="#Hi" aria-label="botón que lleva a la sección de presentación de la página"> <li class="button hi" > HOLA </li></a>
+                   <a href="#Knowledge" aria-label="botón que lleva a la sección de Conocimientos de la página"> <li class="button knowledge"> CONOCIMIENTOS </li></a>
+                   <a href="#Projects" aria-label="botón que lleva a la sección de proyectos de la página"> <li class="button projects"> PROYECTOS</li></a>
+                   <a href="#Contact" aria-label="botón que lleva a la sección de contacto de la página"> <li class="button contact"> CONTACTO </li></a>
                </ul>
            </nav>
        </section>
@@ -40,17 +40,17 @@
                <div class="name"> Camila Evans</div>
                <div class="little-bio"> Estudiante de programación FrontEnd,artista y futura diseñadora</div>
             </article>
-            <article class="button-what">
-               <a href="#Projects"> <div class="what-do-i-do-button"> Lo que hago </div> </a>
+            <article class="button-what" >
+               <a href="#Projects" aria-label="botón que lleva a la sección de proyectos de la página"> <div class="what-do-i-do-button"> Lo que hago </div> </a>
             </article>
            <article class="representative-image">
-               <img src="./imagenes/representative-image1.png" alt="">
+               <img src="./imagenes/representative-image1.png" alt="imagen de estatua de venus colorida y minimalista">
            </article>
        </section>
        <!--End of Hi section -->
        <!--Start of knowledge section-->
-       <a name="Knowledge">
-        <section class="knowledge-section">
+       
+        <section class="knowledge-section" id="Knowledge">
             <article class="center-title">
                 <h1 class="knowledge-title">Conocimientos</br></h1>
             </article>
@@ -58,32 +58,32 @@
             <p class="knowledge-description">Lo que sé de IT</p>
             <div class="card-container">
                 <div class="card">
-                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-html5-plain" aria-hidden="true"></i>
                     <figcaption class="skill-title">HTML5</figcaption>
                 </div>
                 <div class="card">
-                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-css3-plain" aria-hidden="true"></i>
                     <figcaption class="skill-title">CSS3</figcaption>
                 </div>
                 <div class="card">
-                    <i class="devicon-sass-original"></i>
-                    <figcaption class="skill-title">Sass</figcaption>
+                    <i class="devicon-sass-original" aria-hidden="true"></i>
+                    <figcaption class="skill-title" >Sass</figcaption>
                 </div>
                 <div class="card">
-                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-javascript-plain" aria-hidden="true"></i>
                     <figcaption class="skill-title">JavaScript</figcaption>
                 </div>
                 <div class="card">
-                    <i class="devicon-react-original"></i>
+                    <i class="devicon-react-original" aria-hidden="true"></i>
                     <figcaption class="skill-title" >React</figcaption>
                 </div>
                 <div class="card">
-                    <i class="devicon-git-plain"></i>
+                    <i class="devicon-git-plain"aria-hidden="true"></i>
                     <figcaption class="skill-title">GIT</figcaption>
                 </div>
             </div>
         </section>
-        </a>
+        
         <!--end of knowledge section-->
 
         <!-- Start of quote section -->
@@ -102,7 +102,7 @@
                 <div class="cardp-container">
                     <a href="https://camievans99.github.io/PortfolioAda/">
                         <div class="cardp">
-                            <figure><img class="card-image" src="./imagenes/scportoflio.png" alt="imagen representativa"></figure>
+                            <figure><img class="card-image" src="./imagenes/scportoflio.png" alt="imagen del portfolio"></figure>
                             <figcaption class="project-title">Portafolio</figcaption>
                         </div>
                     </a>
@@ -156,10 +156,10 @@
                         <p class="brief-p">Una vez un gran profesor me dijo que todo lo que te imagines, se puede programar, por mas loco o imposible que parezca. Hablame para que juntes podamos materializar tus ideas!♥</p>
                         <div class="social-media">
                             <ul>
-                               <a href="https://twitter.com/camievans99" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="fab fa-twitter"></i> @camievans99 </li></a>
-                               <a href="https://github.com/camievans99" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="fab fa-github"></i> camievans99 </li></a>
-                               <a href="https://www.linkedin.com/in/camila-evans-21b899158/" class="social-media-profile" target="_blank"> <li class="social-media-profile"> <i class="fab fa-linkedin"></i> Camila Evans </li></a>
-                               <a href="mailto:camievans99@gmail.com" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="far fa-envelope"></i> camievans99@gmail.com</li></a>
+                               <a href="https://twitter.com/camievans99" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="fab fa-twitter" aria-hidden="true"></i> @camievans99 </li></a>
+                               <a href="https://github.com/camievans99" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="fab fa-github"aria-hidden="true"></i> camievans99 </li></a>
+                               <a href="https://www.linkedin.com/in/camila-evans-21b899158/" class="social-media-profile" target="_blank"> <li class="social-media-profile"> <i class="fab fa-linkedin"aria-hidden="true"></i> Camila Evans </li></a>
+                               <a href="mailto:camievans99@gmail.com" class="social-media-profile" target="_blank"> <li class="social-media-profile" > <i class="far fa-envelope"aria-hidden="true"></i> camievans99@gmail.com</li></a>
                             </ul>
                         </div>
                     </article>
@@ -167,7 +167,7 @@
                     <!-- formulary -->
 
                     <article class="write-me">
-                         <h2 class="write-me-title">Escribime</h2>
+                         <h2 class="write-me-title" aria-label="Formulario">Escribime</h2>
                          <form class="formulary-section">
                              <div class="row">
                                 <div>
@@ -187,7 +187,7 @@
                                  <label for="UserText" class="label"> * Mensaje:</label>
                                  <textarea name="usertext" id="UserText" cols="30" rows="15" placeholder="Escribí lo que quieras"></textarea>
                              </div>
-                             <button type="submit">Enviar</button>
+                             <button type="submit" aria-label="Boton para enviar el formulario">Enviar</button>
                          </form>
                     </article>
                  </div>
@@ -197,24 +197,24 @@
     <!-- Start of footer -->
     <footer>
         <div class="navegacion-portfolio">
-            <a href="#Hi">
+            <a href="#Hi" aria-label="Enlace que lleva a la seccion de presentacion del portafolio">
                 <span>Hola</span>
             </a>
-            <a href="#Knowledge">
+            <a href="#Knowledge" aria-label="Enlace que lleva a la seccion de Conocimientos del portafolio">
                 <span>Conocimientos</span>
             </a>
-            <a href="#Projects">
+            <a href="#Projects" aria-label="Enlace que lleva a la seccion de proyectosdel portafolio">
                 <span>Proyectos</span>
             </a>
-            <a href="#Contact">
+            <a href="#Contact" aria-label="Enlace que lleva a la seccion de contacto del portafolio">
                 <span>Contacto</span>
             </a>  
         </div>
         <div class="social-media-footer">
-            <a href="https://twitter.com/camievans99" class="social-media-p-footer" target="_blank"> <i class="fab fa-twitter"></i> </a>
-            <a href="https://github.com/camievans99" class="social-media-p-footer" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/camila-evans-21b899158/" class="social-media-p-footer"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:camievans99@gmail.com" class="social-media-p-footer" target="_blank"><i class="far fa-envelope"></i></a>
+            <a href="https://twitter.com/camievans99" class="social-media-p-footer" target="_blank" aria-label="Enlace que lleva a twitter"> <i class="fab fa-twitter" aria-hidden="true"></i> </a>
+            <a href="https://github.com/camievans99" class="social-media-p-footer" target="_blank" aria-label="Enlace que lleva a github"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/camila-evans-21b899158/" class="social-media-p-footer" aria-label="Enlace que lleva a linkedin"><i class="fab fa-linkedin"aria-hidden="true"></i></a>
+            <a href="mailto:camievans99@gmail.com" class="social-media-p-footer" target="_blank" aria-label="Enlace que lleva a enviar un email"><i class="far fa-envelope"aria-hidden="true"></i></a>
         </div>
         <span>Hecho con 💗 por Camila Evans</span>
        
